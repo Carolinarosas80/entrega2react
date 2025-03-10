@@ -1,0 +1,114 @@
+$text: #110b07;
+$background: #fbf8f5;
+$primary: #c1b0a7;
+$secondary: #d6cd9d;
+$accent: #c3c87c;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  background-color: $background;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.btn {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.header {
+  background-color: $primary;
+  color: $text;
+  padding: 1rem;
+}
+
+.header__nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.header__link {
+  color: $text;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__link.active {
+  color: $accent;
+}
+
+.header__link.transitioning {
+  view-transition-name: "page";
+}
+
+/* view transition styles */
+
+.main {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.footer {
+  background-color: $primary;
+  padding: 0.5rem;
+  text-align: center;
+  color: $text;
+}
+
+.footer__text {
+  opacity: 0.5;
+}
+
+.dark {
+  background-color: $text;
+}
+
+.light {
+  background-color: $background;
+}
+
+.fluid-grid {
+  flex-grow: 1;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+
+  @media (min-width: 768px) {
+      padding: 3rem;
+      gap: 1.5rem;
+  }
+}
+
+.product-card {
+  align-self: start;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card__image {
+  width: 100%;
+}
+
+.product-card__description {
+  margin-top: auto;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}

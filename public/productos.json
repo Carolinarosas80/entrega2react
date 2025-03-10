@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Manta Nido",
+      "category": "cama",
+      "price": 25000,
+      "image": "manta-nido.jpg",
+      "description": "Manta tejida en algodón."
+    },
+    {
+      "id": 2,
+      "name": "Pie de Cama en Tusor",
+      "category": "cama",
+      "price": 18000,
+      "image": "pie-de-cama.jpg",
+      "description": "Pie de cama en tusor suave."
+    },
+    {
+      "id": 3,
+      "name": "Funda de Edredón",
+      "category": "cama",
+      "price": 80000,
+      "image": "funda-edredon.jpg",
+      "description": "Funda para edredón en lino."
+    },
+    {
+      "id": 4,
+      "name": "Camino de Mesa",
+      "category": "living",
+      "price": 12000,
+      "image": "camino-mesa.jpg",
+      "description": "Camino de mesa en tusor."
+    },
+    {
+      "id": 5,
+      "name": "Cerámica Decorativa",
+      "category": "deco",
+      "price": 4500,
+      "image": "ceramica.jpg",
+      "description": "Objeto decorativo en cerámica."
+    }
+  ]
+  

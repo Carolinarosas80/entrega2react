@@ -8,7 +8,7 @@ const ItemListContainer = () => {
     const params = useParams()
 
     useEffect(() => {
-        fetch(params.id === undefined ? "/productos.json" : `/${params.id}.json`)
+        fetch(params.id === undefined ? "/productos.json" : "/${params.id}.json")
             .then((res) => {
                 return res.json()
             })
@@ -31,3 +31,4 @@ const ItemListContainer = () => {
     )
 }
 export default ItemListContainer
+

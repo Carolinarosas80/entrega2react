@@ -2,15 +2,15 @@
     {
       "id": 1,
       "name": "Manta Nido",
-      "category": "cama",
+      "category": " Para la cama",
       "price": 25000,
-      "image": "mantanido.jpg",
+      "image": "manta nido.jpg",
       "description": "Manta tejida en algodon  nido, ideal para la cama o tu sillon  "
     },
     {
       "id": 2,
       "name": "Pie de Cama en Tusor",
-      "category": "cama",
+      "category": " Para la cama",
       "price": 18000,
       "image": "pie de cama.jpg",
       "description": "Pie de cama en tusor suave, diponible en varios colores "
@@ -18,7 +18,7 @@
     {
       "id": 3,
       "name": "Funda de Edredón",
-      "category": "cama",
+      "category": " Para la cama",
       "price": 80000,
       "image": "Funda de Edredon.jpg",
       "description": "Funda para edredón en lino, ideales par ausa solo o podes colocar dentro tu edredon "
@@ -26,7 +26,7 @@
     {
       "id": 4,
       "name": "Mantel en tusor ",
-      "category": "living",
+      "category": " Para el living y cocina ",
       "price": 30000,
       "image": "mantel.jpg",
       "description": "Mantel en tusor , ideal para vestir tu mesa , disponible en varios colores ."
@@ -34,19 +34,30 @@
     {
       "id": 5,
       "name": "Pocillo de cafe ",
-      "category": "deco",
+      "category": " Objeto deco",
       "price": 4500,
       "image": "taza.jpg",
-      "description": "Pocillo  en cerámica, hecho a mano en ceramica esmaltada "
-    }
+      "description": "Pocillo  en cerámica, hecho a mano en ceramica esmaltada ,"
+    },
+    
     {
       "id": 6,
       "name": "Plato de ceramica 24 cm ",
-      "category": "deco",
+      "category": " Objeto deco",
       "price": 6500,
       "image": "plato.jpg",
-      "description": "Plato 24 cm en cerámica, hecho a mano ."
+      "description": "Plato 24 cm en cerámica, hecho a mano ,"
+   
+    },
+    {
+      "id": 7,
+      "name": "Pack de repasador de cocina nido ",
+      "category": " Para el living y cocina ",
+      "price": 9000,
+      "image": "repasadordecocina.jpg",
+      "description": "Panios de cocina realizado en nido de algodon ,ideal para vestir tu cocina ,"
    
     }
   ]
+
   

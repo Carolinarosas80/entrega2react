@@ -4,20 +4,20 @@ import { Footer } from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
 import ItemListContainer from "./components/ItemListContainer";
 import Carrito from "./components/Carrito";
-import ProductDetailContainer from "./components/ProductDetailContainer";//cambiar por mis productos el archivo que etas  
-
-export default () => {
+import ItemDetail from "./components/ItemDetail"; 
+const App = () => {
   return (
     <>
       <Header />
       <Routes>
         <Route path="/" element={<ItemListContainer />} />
-        <Route path="/carrito" element={<Carrito/>} />
-        <Route path="/categorias/:id" element={<ItemListContainer/>} />
-        <Route path="/producto/:id" element={<ProductDetailContainer/>} />
+        <Route path="/carrito" element={<Carrito />} />
+        <Route path="/categoria/:categoria" element={<ItemListContainer />} />
+        <Route path="/producto/:id" element={<ItemDetail />} />
       </Routes>
-
       <Footer />
     </>
   );
-}
+};
+
+export default App;

@@ -4,40 +4,49 @@
       "name": "Manta Nido",
       "category": "cama",
       "price": 25000,
-      "image": "manta-nido.jpg",
-      "description": "Manta tejida en algodón."
+      "image": "mantanido.jpg",
+      "description": "Manta tejida en algodon  nido, ideal para la cama o tu sillon  "
     },
     {
       "id": 2,
       "name": "Pie de Cama en Tusor",
       "category": "cama",
       "price": 18000,
-      "image": "pie-de-cama.jpg",
-      "description": "Pie de cama en tusor suave."
+      "image": "pie de cama.jpg",
+      "description": "Pie de cama en tusor suave, diponible en varios colores "
     },
     {
       "id": 3,
       "name": "Funda de Edredón",
       "category": "cama",
       "price": 80000,
-      "image": "funda-edredon.jpg",
-      "description": "Funda para edredón en lino."
+      "image": "Funda de Edredon.jpg",
+      "description": "Funda para edredón en lino, ideales par ausa solo o podes colocar dentro tu edredon "
     },
     {
       "id": 4,
-      "name": "Camino de Mesa",
+      "name": "Mantel en tusor ",
       "category": "living",
-      "price": 12000,
-      "image": "camino-mesa.jpg",
-      "description": "Camino de mesa en tusor."
+      "price": 30000,
+      "image": "mantel.jpg",
+      "description": "Mantel en tusor , ideal para vestir tu mesa , disponible en varios colores ."
     },
     {
       "id": 5,
-      "name": "Cerámica Decorativa",
+      "name": "Pocillo de cafe ",
       "category": "deco",
       "price": 4500,
-      "image": "ceramica.jpg",
-      "description": "Objeto decorativo en cerámica."
+      "image": "taza.jpg",
+      "description": "Pocillo  en cerámica, hecho a mano en ceramica esmaltada "
+    }
+    {
+      "id": 6,
+      "name": "Plato de ceramica 24 cm ",
+      "category": "deco",
+      "price": 6500,
+      "image": "plato.jpg",
+      "description": "Plato 24 cm en cerámica, hecho a mano ."
+   
     }
   ]
   

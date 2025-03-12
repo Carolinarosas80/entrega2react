@@ -1,10 +1,10 @@
 import React from "react";
-import { Header } from "../Header";
-import { Footer } from "../src/components/Footer";
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
-import ItemListContainer from "../src/components/ItemListContainer";
-import Carrito from "../src/components/Carrito";
-import ProductDetailContainer from "../src/components/ProductDetailContainer";//cambiar por mis productos 
+import ItemListContainer from "./components/ItemListContainer";
+import Carrito from "./components/Carrito";
+import ProductDetailContainer from "./components/ProductDetailContainer";//cambiar por mis productos el archivo que etas  
 
 export default () => {
   return (

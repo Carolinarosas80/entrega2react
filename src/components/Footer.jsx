@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+ export const Footer = () => {
   return (
     <footer className="footer">
       <p>Instagram: @lasmantasdelasnona</p>

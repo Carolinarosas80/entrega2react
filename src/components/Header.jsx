@@ -10,9 +10,11 @@ export const Header = () => {
         <NavLink viewTransition to="/categorias/Para la mesa " className="header__link">Para la mesa </NavLink>
         <NavLink viewTransition to="/categorias/Dec" className="header__link">Deco</NavLink>
         <NavLink viewTransition to="/carrito" className="header__link">
-          <img src="/shopping-cart.svg" alt="Icono de carrito" />
+          <img src="" alt="Icono de carrito" />
         </NavLink>
       </nav>
     </Flex>
   );
 }
+
+//agregar la imagen del carrito .
